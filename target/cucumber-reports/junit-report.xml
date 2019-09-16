@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="6" tests="10" time="0.131202">
+<testcase classname="Test Admin details" name="check admin details" time="0">
+<skipped><![CDATA[Given open Admin_deatils Page...............................................undefined
+When click on Admin_Info button.............................................undefined
+Then should redirect to Admin Info page.....................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Test Finance Info" name="check Finance details" time="0">
+<skipped><![CDATA[Given open Finance_deatils Page.............................................undefined
+When click on Finance_Info button...........................................undefined
+Then should redirect to Finance Info page...................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Testing" name="validate login Page" time="0.130933">
+<system-out><![CDATA[Given Open login Page.......................................................passed
+And Enter valid username and password.......................................passed
+When clicked on login button................................................passed
+Then should open Homepage...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing" name="check flipkart Homepage api" time="0.000051">
+<system-out><![CDATA[Given Set API endpoint......................................................passed
+When run GET request........................................................passed
+Then should get valid HTTP respone..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Client Info" name="check client details" time="0">
+<skipped><![CDATA[Given open Client_deatils Page..............................................undefined
+When click on client_Info button............................................undefined
+Then should redirect to client Info page....................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Test company details" name="check company details" time="0">
+<skipped><![CDATA[Given open company_deatils Page.............................................undefined
+When click on company_Info button...........................................undefined
+Then should redirect to company Info page...................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Test customer details" name="check customer details" time="0">
+<skipped><![CDATA[Given open customer_deatils Page............................................undefined
+When click on customer_Info button..........................................undefined
+Then should redirect to customer Info page..................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Test emp details" name="check emp details" time="0">
+<skipped><![CDATA[Given open emp_deatils Page.................................................undefined
+When click on emp_Info button...............................................undefined
+Then should redirect to emp Info page.......................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="validate Amazon" name="to validate login page of Amazon" time="0.000137">
+<system-out><![CDATA[Given open login page.......................................................passed
+And enter username and password.............................................passed
+When click on login.........................................................passed
+Then should open HomePage...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate UST" name="to validate login page of UST" time="0.000081">
+<system-out><![CDATA[Given open login page.......................................................passed
+And enter username and password.............................................passed
+When click on login.........................................................passed
+Then should open HomePage of UST............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
