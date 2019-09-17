@@ -48,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 17, 2019 12:31:58 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 17, 2019 12:46:47 PM</span>
 				</a>
 			</li>
 			<li>
@@ -136,10 +136,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>5</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='40%'><span class='strong'>4</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='40%'>4</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='10%'>1</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='60%'>6</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -151,10 +151,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>5</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='40%'><span class='strong'>4</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='40%'>4</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='10%'>1</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='60%'>6</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -166,10 +166,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>22</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='69.697%'><span class='strong'>23</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='12.121%'>4</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='21.212%'>7</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='18.182%'>6</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='12.121%'>4</span> others
 				</div>
 			</div>
 		</div>
@@ -186,12 +186,12 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Test Admin details</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 0s+147ms</span>
+	<span class='duration right label'>0h 0m 0s+108ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">check admin details</span>
@@ -202,12 +202,11 @@
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given open Admin_deatils Page</span>
-				<div class='pre'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:85)
+				<div class='pre'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:86)
 	at ?.Given open Admin_deatils Page(Admin_Info.feature:5)
 </pre></div>
 			
@@ -234,14 +233,14 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf skip' status='skip' bdd='true' test-id='6'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='6'>
 					<div class='test-heading'>
 						<span class='test-name'>Test Finance Info</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
-						<span class='test-status right skip'>skip</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='7' status='skip'>
+<div class='scenario node' test-id='7' status='pass'>
 	<div class='category-list'>
 		<span class='category label white-text'>@avoid</span>
 	</div>
@@ -251,28 +250,28 @@
 		<span class="desc-text">check Finance details</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='8' class='node given skip' status='skip'>
+		<li test-id='8' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given open Finance_deatils Page</span>
-				<div class='pre'>undefined</div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='9' class='node when skip' status='skip'>
+		<li test-id='9' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When click on Finance_Info button</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='10' class='node then skip' status='skip'>
+		<li test-id='10' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then should redirect to Finance Info page</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'>passed</div>
 			
 		</li>
 	</ul>
@@ -281,15 +280,15 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='11'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='11'>
 					<div class='test-heading'>
 						<span class='test-name'>Testing</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='12' status='pass'>
-	<span class='duration right label'>0h 0m 0s+3ms</span>
+<div class='scenario node' test-id='12' status='fail'>
+	<span class='duration right label'>0h 0m 0s+4ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">validate login Page</span>
@@ -319,12 +318,18 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='16' class='node then pass' status='pass'>
+		<li test-id='16' class='node then fail' status='fail'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then should open Homepage</span>
-				<div class='pre'>passed</div>
+				<div class='pre'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_open_Homepage(Definition.java:33)
+	at ?.Then should open Homepage(Test1.feature:10)
+</pre></div>
 			
 		</li>
 	</ul>
@@ -336,12 +341,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='17'>
 					<div class='test-heading'>
 						<span class='test-name'>API Testing</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='18' status='pass'>
-	<span class='duration right label'>0h 0m 0s+2ms</span>
+	<span class='duration right label'>0h 0m 0s+1ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">check flipkart Homepage api</span>
@@ -380,12 +385,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='22'>
 					<div class='test-heading'>
 						<span class='test-name'>Test Client Info</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='23' status='pass'>
-	<span class='duration right label'>0h 0m 0s+2ms</span>
+	<span class='duration right label'>0h 0m 0s+1ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">check client details</span>
@@ -424,12 +429,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='27'>
 					<div class='test-heading'>
 						<span class='test-name'>Test company details</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='28' status='pass'>
-	<span class='duration right label'>0h 0m 0s+3ms</span>
+	<span class='duration right label'>0h 0m 0s+2ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">check company details</span>
@@ -465,15 +470,15 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='32'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='32'>
 					<div class='test-heading'>
 						<span class='test-name'>Test customer details</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='33' status='pass'>
-	<span class='duration right label'>0h 0m 0s+2ms</span>
+<div class='scenario node' test-id='33' status='fail'>
+	<span class='duration right label'>0h 0m 0s+3ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">check customer details</span>
@@ -495,12 +500,18 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='36' class='node then pass' status='pass'>
+		<li test-id='36' class='node then fail' status='fail'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then should redirect to customer Info page</span>
-				<div class='pre'>passed</div>
+				<div class='pre'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_redirect_to_customer_Info_page(Definition.java:164)
+	at ?.Then should redirect to customer Info page(customerInfo.feature:8)
+</pre></div>
 			
 		</li>
 	</ul>
@@ -512,12 +523,12 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='37'>
 					<div class='test-heading'>
 						<span class='test-name'>Test emp details</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='38' status='fail'>
-	<span class='duration right label'>0h 0m 0s+3ms</span>
+	<span class='duration right label'>0h 0m 0s+0ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">check emp details</span>
@@ -529,7 +540,7 @@
 			
 			<span class="bdd-step-name">Given open emp_deatils Page</span>
 				<div class='pre'><pre>org.testng.SkipException: skipped
-	at ustdefinition.Definition.open_emp_deatils_Page(Definition.java:169)
+	at ustdefinition.Definition.open_emp_deatils_Page(Definition.java:170)
 	at ?.Given open emp_deatils Page(employee_details.feature:5)
 </pre></div>
 			
@@ -559,12 +570,12 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='42'>
 					<div class='test-heading'>
 						<span class='test-name'>validate Amazon</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='43' status='fail'>
-	<span class='duration right label'>0h 0m 0s+4ms</span>
+	<span class='duration right label'>0h 0m 0s+2ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">to validate login page of Amazon</span>
@@ -599,12 +610,11 @@
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then should open HomePage</span>
-				<div class='pre'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.should_open_HomePage(Definition.java:74)
+				<div class='pre'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_open_HomePage(Definition.java:75)
 	at ?.Then should open HomePage(valid_Amazon.feature:6)
 </pre></div>
 			
@@ -618,12 +628,12 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='48'>
 					<div class='test-heading'>
 						<span class='test-name'>validate UST</span>
-						<span class='test-time'>Sep 17, 2019 12:31:58 PM</span>
+						<span class='test-time'>Sep 17, 2019 12:46:48 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='49' status='fail'>
-	<span class='duration right label'>0h 0m 0s+3ms</span>
+	<span class='duration right label'>0h 0m 0s+4ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">to validate login page of UST</span>
@@ -658,12 +668,11 @@
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then should open HomePage of UST</span>
-				<div class='pre'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:80)
+				<div class='pre'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:81)
 	at ?.Then should open HomePage of UST(valid_ust.feature:6)
 </pre></div>
 			
@@ -726,14 +735,14 @@
 					<div class='category-heading'>
 						<span class='category-name'>@avoid</span>
 						<span class='category-status right'>
-							<span class='label others'>1</span>
+							<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
 							
-							<span class='label yellow darken-2 white-text'>Others: 1</span>
 						</div>
 					
 						<div class='category-tests'>
@@ -747,9 +756,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 17, 2019 12:31:58 PM</td>
+										<td>Sep 17, 2019 12:46:48 PM</td>
 										<td class='linked' test-id='7'>Test Finance Info.check Finance details</td>
-										<td><span class='test-status skip'>skip</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -796,7 +805,7 @@
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
                                 <span class='exception-name'>java.lang.AssertionError</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>3</span></span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>5</span></span>
                             </div>
                             <div class='exception-content hide'>
                                 <div class='exception-tests'>
@@ -810,38 +819,57 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Sep 17, 2019 12:31:58 PM</td>
+                                                        <td>Sep 17, 2019 12:46:48 PM</td>
                                                         <td class='linked' test-id='3'>Test Admin details.check admin details.Given open Admin_deatils Page</td>
-                                                        <td><pre><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:85)
+                                                        <td><pre><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:86)
 	at ?.Given open Admin_deatils Page(Admin_Info.feature:5)
 </pre></pre></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Sep 17, 2019 12:31:58 PM</td>
+                                                        <td>Sep 17, 2019 12:46:48 PM</td>
+                                                        <td class='linked' test-id='16'>Testing.validate login Page.Then should open Homepage</td>
+                                                        <td><pre><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_open_Homepage(Definition.java:33)
+	at ?.Then should open Homepage(Test1.feature:10)
+</pre></pre></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sep 17, 2019 12:46:48 PM</td>
+                                                        <td class='linked' test-id='36'>Test customer details.check customer details.Then should redirect to customer Info page</td>
+                                                        <td><pre><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_redirect_to_customer_Info_page(Definition.java:164)
+	at ?.Then should redirect to customer Info page(customerInfo.feature:8)
+</pre></pre></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sep 17, 2019 12:46:48 PM</td>
                                                         <td class='linked' test-id='47'>validate Amazon.to validate login page of Amazon.Then should open HomePage</td>
-                                                        <td><pre><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.should_open_HomePage(Definition.java:74)
+                                                        <td><pre><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_open_HomePage(Definition.java:75)
 	at ?.Then should open HomePage(valid_Amazon.feature:6)
 </pre></pre></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Sep 17, 2019 12:31:58 PM</td>
+                                                        <td>Sep 17, 2019 12:46:48 PM</td>
                                                         <td class='linked' test-id='53'>validate UST.to validate login page of UST.Then should open HomePage of UST</td>
-                                                        <td><pre><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:80)
+                                                        <td><pre><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:81)
 	at ?.Then should open HomePage of UST(valid_ust.feature:6)
 </pre></pre></td>
                                                     </tr>
@@ -867,10 +895,10 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Sep 17, 2019 12:31:58 PM</td>
+                                                        <td>Sep 17, 2019 12:46:48 PM</td>
                                                         <td class='linked' test-id='39'>Test emp details.check emp details.Given open emp_deatils Page</td>
                                                         <td><pre><pre>org.testng.SkipException: skipped
-	at ustdefinition.Definition.open_emp_deatils_Page(Definition.java:169)
+	at ustdefinition.Definition.open_emp_deatils_Page(Definition.java:170)
 	at ?.Given open emp_deatils Page(employee_details.feature:5)
 </pre></pre></td>
                                                     </tr>
@@ -916,19 +944,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 17, 2019 12:31:58 PM</div>
+					<div class='panel-lead'>Sep 17, 2019 12:46:47 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 17, 2019 12:31:58 PM</div>
+			 		<div class='panel-lead'>Sep 17, 2019 12:46:48 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>417ms</div>
+					<div class='panel-lead'>285ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -945,11 +973,11 @@
 						</tr>
 						<tr>
 							<td>@avoid</td>
-							<td>0</td>
-							<td>0</td>
 							<td>1</td>
+							<td>0</td>
+							<td>0</td>
 							<td>
-									0%
+									100%
 							</td>
 						</tr>
 					</table>
@@ -965,31 +993,31 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 5,
-				failParent: 4,
+				passParent: 4,
+				failParent: 6,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 1,
-				exceptionsParent: 5,
+				skipParent: 0,
+				exceptionsParent: 6,
 				
-				passChild: 5,
-				failChild: 4,
+				passChild: 4,
+				failChild: 6,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 1,
+				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 5,
+				exceptionsChild: 6,
 				
-				passGrandChild: 22,
-				failGrandChild: 4,
+				passGrandChild: 23,
+				failGrandChild: 6,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 7,
+				skipGrandChild: 4,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 11,
+				exceptionsGrandChild: 10,
 			};
 		</script>
 		

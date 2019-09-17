@@ -30,7 +30,7 @@ public class Definition {
 
 	@Then("^should open Homepage$")
 	public void should_open_Homepage() throws Throwable {
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 	    
 	}
 
@@ -161,7 +161,7 @@ public class Definition {
 
 	@Then("^should redirect to customer Info page$")
 	public void should_redirect_to_customer_Info_page() throws Throwable {
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 	   
 	}
 
@@ -179,7 +179,7 @@ public class Definition {
 	@Then("^should redirect to emp Info page$")
 	public void should_redirect_to_emp_Info_page() throws Throwable {
 		
-		throw new SkipException("skipped");
+		Assert.assertTrue(false);
 	   
 	}
 	@Given("^open Finance_deatils Page$")
