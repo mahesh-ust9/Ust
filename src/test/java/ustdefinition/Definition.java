@@ -1,6 +1,7 @@
 package ustdefinition;
 
-import org.testng.Assert;
+
+import org.junit.Assert;
 import org.testng.SkipException;
 
 import cucumber.api.java.en.Given;
@@ -97,11 +98,7 @@ public class Definition {
 	  
 	}
 
-	@Given("^open Finance_deatils Page$")
-	public void open_Finance_deatils_Page() throws Throwable {
-		Assert.assertTrue(false);
-	 
-	}
+	
 
 	@When("^click on Finance_Info button$")
 	public void click_on_Finance_Info_button() throws Throwable {
@@ -185,4 +182,10 @@ public class Definition {
 		throw new SkipException("skipped");
 	   
 	}
+	@Given("^open Finance_deatils Page$")
+	public void open_Finance_deatils_Page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		Assert.assertTrue(true);
+	}
+
 }

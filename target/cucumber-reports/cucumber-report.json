@@ -12,29 +12,37 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 83910500,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:85)\r\n\tat ✽.Given open Admin_deatils Page(Admin_Info.feature:5)\r\n",
+              "status": "failed"
             },
             "line": 5,
             "name": "open Admin_deatils Page",
-            "match": {},
+            "match": {
+              "location": "Definition.open_Admin_deatils_Page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 7,
             "name": "click on Admin_Info button",
-            "match": {},
+            "match": {
+              "location": "Definition.click_on_Admin_Info_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 8,
             "name": "should redirect to Admin Info page",
-            "match": {},
+            "match": {
+              "location": "Definition.should_redirect_to_Admin_Info_page()"
+            },
             "keyword": "Then "
           }
         ]
@@ -68,20 +76,24 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 8,
             "name": "click on Finance_Info button",
-            "match": {},
+            "match": {
+              "location": "Definition.click_on_Finance_Info_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 9,
             "name": "should redirect to Finance Info page",
-            "match": {},
+            "match": {
+              "location": "Definition.should_redirect_to_Finance_Info_page()"
+            },
             "keyword": "Then "
           }
         ],
@@ -112,7 +124,7 @@
         "steps": [
           {
             "result": {
-              "duration": 130895801,
+              "duration": 38400,
               "status": "passed"
             },
             "line": 6,
@@ -124,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 15500,
+              "duration": 11600,
               "status": "passed"
             },
             "line": 7,
@@ -136,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 11400,
+              "duration": 9400,
               "status": "passed"
             },
             "line": 9,
@@ -148,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 10001,
+              "duration": 9500,
               "status": "passed"
             },
             "line": 10,
@@ -180,7 +192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16500,
+              "duration": 18700,
               "status": "passed"
             },
             "line": 5,
@@ -192,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 12999,
+              "duration": 8700,
               "status": "passed"
             },
             "line": 7,
@@ -204,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 21399,
+              "duration": 8500,
               "status": "passed"
             },
             "line": 8,
@@ -236,29 +248,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 14300,
+              "status": "passed"
             },
             "line": 5,
             "name": "open Client_deatils Page",
-            "match": {},
+            "match": {
+              "location": "Definition.open_Client_deatils_Page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 9700,
+              "status": "passed"
             },
             "line": 7,
             "name": "click on client_Info button",
-            "match": {},
+            "match": {
+              "location": "Definition.click_on_client_Info_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 8900,
+              "status": "passed"
             },
             "line": 8,
             "name": "should redirect to client Info page",
-            "match": {},
+            "match": {
+              "location": "Definition.should_redirect_to_client_Info_page()"
+            },
             "keyword": "Then "
           }
         ]
@@ -283,29 +304,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 38700,
+              "status": "passed"
             },
             "line": 5,
             "name": "open company_deatils Page",
-            "match": {},
+            "match": {
+              "location": "Definition.open_company_deatils_Page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 26700,
+              "status": "passed"
             },
             "line": 7,
             "name": "click on company_Info button",
-            "match": {},
+            "match": {
+              "location": "Definition.click_on_company_Info_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 13200,
+              "status": "passed"
             },
             "line": 8,
             "name": "should redirect to company Info page",
-            "match": {},
+            "match": {
+              "location": "Definition.should_redirect_to_company_Info_page()"
+            },
             "keyword": "Then "
           }
         ]
@@ -330,29 +360,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 20200,
+              "status": "passed"
             },
             "line": 5,
             "name": "open customer_deatils Page",
-            "match": {},
+            "match": {
+              "location": "Definition.open_customer_deatils_Page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 13300,
+              "status": "passed"
             },
             "line": 7,
             "name": "click on customer_Info button",
-            "match": {},
+            "match": {
+              "location": "Definition.click_on_customer_Info_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 11700,
+              "status": "passed"
             },
             "line": 8,
             "name": "should redirect to customer Info page",
-            "match": {},
+            "match": {
+              "location": "Definition.should_redirect_to_customer_Info_page()"
+            },
             "keyword": "Then "
           }
         ]
@@ -377,29 +416,37 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 206400,
+              "error_message": "org.testng.SkipException: skipped\r\n\tat ustdefinition.Definition.open_emp_deatils_Page(Definition.java:169)\r\n\tat ✽.Given open emp_deatils Page(employee_details.feature:5)\r\n",
+              "status": "failed"
             },
             "line": 5,
             "name": "open emp_deatils Page",
-            "match": {},
+            "match": {
+              "location": "Definition.open_emp_deatils_Page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 7,
             "name": "click on emp_Info button",
-            "match": {},
+            "match": {
+              "location": "Definition.click_on_emp_Info_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 8,
             "name": "should redirect to emp Info page",
-            "match": {},
+            "match": {
+              "location": "Definition.should_redirect_to_emp_Info_page()"
+            },
             "keyword": "Then "
           }
         ]
@@ -424,7 +471,7 @@
         "steps": [
           {
             "result": {
-              "duration": 57999,
+              "duration": 28500,
               "status": "passed"
             },
             "line": 3,
@@ -436,7 +483,7 @@
           },
           {
             "result": {
-              "duration": 18700,
+              "duration": 18100,
               "status": "passed"
             },
             "line": 4,
@@ -448,7 +495,7 @@
           },
           {
             "result": {
-              "duration": 39000,
+              "duration": 19900,
               "status": "passed"
             },
             "line": 5,
@@ -460,8 +507,9 @@
           },
           {
             "result": {
-              "duration": 20900,
-              "status": "passed"
+              "duration": 240700,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat ustdefinition.Definition.should_open_HomePage(Definition.java:74)\r\n\tat ✽.Then should open HomePage(valid_Amazon.feature:6)\r\n",
+              "status": "failed"
             },
             "line": 6,
             "name": "should open HomePage",
@@ -492,7 +540,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23400,
+              "duration": 55700,
               "status": "passed"
             },
             "line": 3,
@@ -504,7 +552,7 @@
           },
           {
             "result": {
-              "duration": 16500,
+              "duration": 16900,
               "status": "passed"
             },
             "line": 4,
@@ -516,7 +564,7 @@
           },
           {
             "result": {
-              "duration": 21699,
+              "duration": 28800,
               "status": "passed"
             },
             "line": 5,
@@ -528,8 +576,9 @@
           },
           {
             "result": {
-              "duration": 19501,
-              "status": "passed"
+              "duration": 125600,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:80)\r\n\tat ✽.Then should open HomePage of UST(valid_ust.feature:6)\r\n",
+              "status": "failed"
             },
             "line": 6,
             "name": "should open HomePage of UST",

@@ -1,65 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="6" tests="10" time="0.131202">
-<testcase classname="Test Admin details" name="check admin details" time="0">
-<skipped><![CDATA[Given open Admin_deatils Page...............................................undefined
-When click on Admin_Info button.............................................undefined
-Then should redirect to Admin Info page.....................................undefined
-]]></skipped>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="10" time="0.084912">
+<testcase classname="Test Admin details" name="check admin details" time="0.08391">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:85)&#13;&#10;&#9;at ✽.Given open Admin_deatils Page(Admin_Info.feature:5)&#13;&#10;"><![CDATA[Given open Admin_deatils Page...............................................failed
+When click on Admin_Info button.............................................skipped
+Then should redirect to Admin Info page.....................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:85)
+	at ✽.Given open Admin_deatils Page(Admin_Info.feature:5)
+]]></failure>
 </testcase>
 <testcase classname="Test Finance Info" name="check Finance details" time="0">
 <skipped><![CDATA[Given open Finance_deatils Page.............................................undefined
-When click on Finance_Info button...........................................undefined
-Then should redirect to Finance Info page...................................undefined
+When click on Finance_Info button...........................................skipped
+Then should redirect to Finance Info page...................................skipped
 ]]></skipped>
 </testcase>
-<testcase classname="Testing" name="validate login Page" time="0.130933">
+<testcase classname="Testing" name="validate login Page" time="0.000069">
 <system-out><![CDATA[Given Open login Page.......................................................passed
 And Enter valid username and password.......................................passed
 When clicked on login button................................................passed
 Then should open Homepage...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="API Testing" name="check flipkart Homepage api" time="0.000051">
+<testcase classname="API Testing" name="check flipkart Homepage api" time="0.000036">
 <system-out><![CDATA[Given Set API endpoint......................................................passed
 When run GET request........................................................passed
 Then should get valid HTTP respone..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Client Info" name="check client details" time="0">
-<skipped><![CDATA[Given open Client_deatils Page..............................................undefined
-When click on client_Info button............................................undefined
-Then should redirect to client Info page....................................undefined
-]]></skipped>
-</testcase>
-<testcase classname="Test company details" name="check company details" time="0">
-<skipped><![CDATA[Given open company_deatils Page.............................................undefined
-When click on company_Info button...........................................undefined
-Then should redirect to company Info page...................................undefined
-]]></skipped>
-</testcase>
-<testcase classname="Test customer details" name="check customer details" time="0">
-<skipped><![CDATA[Given open customer_deatils Page............................................undefined
-When click on customer_Info button..........................................undefined
-Then should redirect to customer Info page..................................undefined
-]]></skipped>
-</testcase>
-<testcase classname="Test emp details" name="check emp details" time="0">
-<skipped><![CDATA[Given open emp_deatils Page.................................................undefined
-When click on emp_Info button...............................................undefined
-Then should redirect to emp Info page.......................................undefined
-]]></skipped>
-</testcase>
-<testcase classname="validate Amazon" name="to validate login page of Amazon" time="0.000137">
-<system-out><![CDATA[Given open login page.......................................................passed
-And enter username and password.............................................passed
-When click on login.........................................................passed
-Then should open HomePage...................................................passed
+<testcase classname="Test Client Info" name="check client details" time="0.000033">
+<system-out><![CDATA[Given open Client_deatils Page..............................................passed
+When click on client_Info button............................................passed
+Then should redirect to client Info page....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="validate UST" name="to validate login page of UST" time="0.000081">
-<system-out><![CDATA[Given open login page.......................................................passed
+<testcase classname="Test company details" name="check company details" time="0.000079">
+<system-out><![CDATA[Given open company_deatils Page.............................................passed
+When click on company_Info button...........................................passed
+Then should redirect to company Info page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test customer details" name="check customer details" time="0.000045">
+<system-out><![CDATA[Given open customer_deatils Page............................................passed
+When click on customer_Info button..........................................passed
+Then should redirect to customer Info page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test emp details" name="check emp details" time="0.000206">
+<failure message="org.testng.SkipException: skipped&#13;&#10;&#9;at ustdefinition.Definition.open_emp_deatils_Page(Definition.java:169)&#13;&#10;&#9;at ✽.Given open emp_deatils Page(employee_details.feature:5)&#13;&#10;"><![CDATA[Given open emp_deatils Page.................................................failed
+When click on emp_Info button...............................................skipped
+Then should redirect to emp Info page.......................................skipped
+
+StackTrace:
+org.testng.SkipException: skipped
+	at ustdefinition.Definition.open_emp_deatils_Page(Definition.java:169)
+	at ✽.Given open emp_deatils Page(employee_details.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="validate Amazon" name="to validate login page of Amazon" time="0.000307">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at ustdefinition.Definition.should_open_HomePage(Definition.java:74)&#13;&#10;&#9;at ✽.Then should open HomePage(valid_Amazon.feature:6)&#13;&#10;"><![CDATA[Given open login page.......................................................passed
 And enter username and password.............................................passed
 When click on login.........................................................passed
-Then should open HomePage of UST............................................passed
-]]></system-out>
+Then should open HomePage...................................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_open_HomePage(Definition.java:74)
+	at ✽.Then should open HomePage(valid_Amazon.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="validate UST" name="to validate login page of UST" time="0.000227">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:80)&#13;&#10;&#9;at ✽.Then should open HomePage of UST(valid_ust.feature:6)&#13;&#10;"><![CDATA[Given open login page.......................................................passed
+And enter username and password.............................................passed
+When click on login.........................................................passed
+Then should open HomePage of UST............................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:80)
+	at ✽.Then should open HomePage of UST(valid_ust.feature:6)
+]]></failure>
 </testcase>
 </testsuite>
