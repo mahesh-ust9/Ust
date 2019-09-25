@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="6" total="10" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="822" started-at="2019-09-17T07:16:47Z" finished-at="2019-09-17T07:16:48Z">
+  <suite name="Default suite" duration-ms="1183" started-at="2019-09-25T08:31:34Z" finished-at="2019-09-25T08:31:35Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="822" started-at="2019-09-17T07:16:47Z" finished-at="2019-09-17T07:16:48Z">
+    <test name="Default test" duration-ms="1183" started-at="2019-09-25T08:31:34Z" finished-at="2019-09-25T08:31:35Z">
       <class name="ustTest.UstRunner$edgeopsApiTestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="setUpClass" is-config="true" duration-ms="145" started-at="2019-09-17T12:46:47Z" finished-at="2019-09-17T12:46:47Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="setUpClass" is-config="true" duration-ms="150" started-at="2019-09-25T14:01:34Z" finished-at="2019-09-25T14:01:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="292" started-at="2019-09-17T12:46:47Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="453" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="8" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="14" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="5" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="5" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="3" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="3" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -140,7 +140,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="3" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="3" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="4" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="4" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="3" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="3" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -214,7 +214,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="2" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="2" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@ Caused by: org.testng.SkipException: skipped
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="3" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="6" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -315,7 +315,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="6" started-at="2019-09-17T12:46:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="feature" duration-ms="5" started-at="2019-09-25T14:01:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-25T14:01:34Z">
           <params>
             <param index="0">
               <value>
@@ -367,7 +367,7 @@ Caused by: java.lang.AssertionError
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="tearDownClass" is-config="true" duration-ms="277" started-at="2019-09-17T12:46:48Z" finished-at="2019-09-17T12:46:48Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ustTest.UstRunner$edgeopsApiTestRunner@4b4523f8]" name="tearDownClass" is-config="true" duration-ms="464" started-at="2019-09-25T14:01:34Z" finished-at="2019-09-25T14:01:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
