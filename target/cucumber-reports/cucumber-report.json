@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "duration": 60948000,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:86)\r\n\tat ✽.Given open Admin_deatils Page(Admin_Info.feature:5)\r\n",
-              "status": "failed"
+              "duration": 60933500,
+              "status": "passed"
             },
             "line": 5,
             "name": "open Admin_deatils Page",
@@ -25,7 +24,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 10700,
+              "status": "passed"
             },
             "line": 7,
             "name": "click on Admin_Info button",
@@ -36,7 +36,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8100,
+              "status": "passed"
             },
             "line": 8,
             "name": "should redirect to Admin Info page",
@@ -67,7 +68,7 @@
         "steps": [
           {
             "result": {
-              "duration": 35600,
+              "duration": 26700,
               "status": "passed"
             },
             "line": 6,
@@ -79,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 12800,
+              "duration": 16800,
               "status": "passed"
             },
             "line": 8,
@@ -91,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 11100,
+              "duration": 28000,
               "status": "passed"
             },
             "line": 9,
@@ -129,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 28700,
+              "duration": 18000,
               "status": "passed"
             },
             "line": 6,
@@ -141,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 27800,
+              "duration": 10700,
               "status": "passed"
             },
             "line": 7,
@@ -153,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 10200,
+              "duration": 16900,
               "status": "passed"
             },
             "line": 9,
@@ -165,9 +166,8 @@
           },
           {
             "result": {
-              "duration": 130200,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat ustdefinition.Definition.should_open_Homepage(Definition.java:33)\r\n\tat ✽.Then should open Homepage(Test1.feature:10)\r\n",
-              "status": "failed"
+              "duration": 12700,
+              "status": "passed"
             },
             "line": 10,
             "name": "should open Homepage",
@@ -198,7 +198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22400,
+              "duration": 28300,
               "status": "passed"
             },
             "line": 5,
@@ -210,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 17500,
+              "duration": 9900,
               "status": "passed"
             },
             "line": 7,
@@ -222,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 17800,
+              "duration": 10100,
               "status": "passed"
             },
             "line": 8,
@@ -254,7 +254,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22400,
+              "duration": 52700,
               "status": "passed"
             },
             "line": 5,
@@ -266,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 13100,
+              "duration": 39000,
               "status": "passed"
             },
             "line": 7,
@@ -278,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 9000,
+              "duration": 14800,
               "status": "passed"
             },
             "line": 8,
@@ -310,7 +310,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14600,
+              "duration": 21100,
               "status": "passed"
             },
             "line": 5,
@@ -322,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 9100,
+              "duration": 11500,
               "status": "passed"
             },
             "line": 7,
@@ -334,7 +334,7 @@
           },
           {
             "result": {
-              "duration": 9700,
+              "duration": 14100,
               "status": "passed"
             },
             "line": 8,
@@ -366,7 +366,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13900,
+              "duration": 38300,
               "status": "passed"
             },
             "line": 5,
@@ -378,7 +378,7 @@
           },
           {
             "result": {
-              "duration": 8600,
+              "duration": 40700,
               "status": "passed"
             },
             "line": 7,
@@ -390,9 +390,8 @@
           },
           {
             "result": {
-              "duration": 103700,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat ustdefinition.Definition.should_redirect_to_customer_Info_page(Definition.java:164)\r\n\tat ✽.Then should redirect to customer Info page(customerInfo.feature:8)\r\n",
-              "status": "failed"
+              "duration": 31300,
+              "status": "passed"
             },
             "line": 8,
             "name": "should redirect to customer Info page",
@@ -423,7 +422,7 @@
         "steps": [
           {
             "result": {
-              "duration": 143900,
+              "duration": 709900,
               "error_message": "org.testng.SkipException: skipped\r\n\tat ustdefinition.Definition.open_emp_deatils_Page(Definition.java:170)\r\n\tat ✽.Given open emp_deatils Page(employee_details.feature:5)\r\n",
               "status": "failed"
             },
@@ -478,7 +477,7 @@
         "steps": [
           {
             "result": {
-              "duration": 29900,
+              "duration": 44600,
               "status": "passed"
             },
             "line": 3,
@@ -490,7 +489,7 @@
           },
           {
             "result": {
-              "duration": 21100,
+              "duration": 13900,
               "status": "passed"
             },
             "line": 4,
@@ -502,7 +501,7 @@
           },
           {
             "result": {
-              "duration": 18200,
+              "duration": 30100,
               "status": "passed"
             },
             "line": 5,
@@ -514,7 +513,7 @@
           },
           {
             "result": {
-              "duration": 168100,
+              "duration": 238100,
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat ustdefinition.Definition.should_open_HomePage(Definition.java:75)\r\n\tat ✽.Then should open HomePage(valid_Amazon.feature:6)\r\n",
               "status": "failed"
             },
@@ -547,7 +546,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18300,
+              "duration": 18700,
               "status": "passed"
             },
             "line": 3,
@@ -559,7 +558,7 @@
           },
           {
             "result": {
-              "duration": 15400,
+              "duration": 24900,
               "status": "passed"
             },
             "line": 4,
@@ -571,7 +570,7 @@
           },
           {
             "result": {
-              "duration": 18700,
+              "duration": 31900,
               "status": "passed"
             },
             "line": 5,
@@ -583,9 +582,8 @@
           },
           {
             "result": {
-              "duration": 203500,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:81)\r\n\tat ✽.Then should open HomePage of UST(valid_ust.feature:6)\r\n",
-              "status": "failed"
+              "duration": 24100,
+              "status": "passed"
             },
             "line": 6,
             "name": "should open HomePage of UST",

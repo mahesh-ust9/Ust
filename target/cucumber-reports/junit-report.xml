@@ -1,72 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="6" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="0.062103">
-<testcase classname="Test Admin details" name="check admin details" time="0.060948">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:86)&#13;&#10;&#9;at ✽.Given open Admin_deatils Page(Admin_Info.feature:5)&#13;&#10;"><![CDATA[Given open Admin_deatils Page...............................................failed
-When click on Admin_Info button.............................................skipped
-Then should redirect to Admin Info page.....................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.open_Admin_deatils_Page(Definition.java:86)
-	at ✽.Given open Admin_deatils Page(Admin_Info.feature:5)
-]]></failure>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="0.062531">
+<testcase classname="Test Admin details" name="check admin details" time="0.060952">
+<system-out><![CDATA[Given open Admin_deatils Page...............................................passed
+When click on Admin_Info button.............................................passed
+Then should redirect to Admin Info page.....................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Test Finance Info" name="check Finance details" time="0.00006">
+<testcase classname="Test Finance Info" name="check Finance details" time="0.000072">
 <system-out><![CDATA[Given open Finance_deatils Page.............................................passed
 When click on Finance_Info button...........................................passed
 Then should redirect to Finance Info page...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Testing" name="validate login Page" time="0.000197">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at ustdefinition.Definition.should_open_Homepage(Definition.java:33)&#13;&#10;&#9;at ✽.Then should open Homepage(Test1.feature:10)&#13;&#10;"><![CDATA[Given Open login Page.......................................................passed
+<testcase classname="Testing" name="validate login Page" time="0.000058">
+<system-out><![CDATA[Given Open login Page.......................................................passed
 And Enter valid username and password.......................................passed
 When clicked on login button................................................passed
-Then should open Homepage...................................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.should_open_Homepage(Definition.java:33)
-	at ✽.Then should open Homepage(Test1.feature:10)
-]]></failure>
+Then should open Homepage...................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="API Testing" name="check flipkart Homepage api" time="0.000058">
+<testcase classname="API Testing" name="check flipkart Homepage api" time="0.000048">
 <system-out><![CDATA[Given Set API endpoint......................................................passed
 When run GET request........................................................passed
 Then should get valid HTTP respone..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Client Info" name="check client details" time="0.000044">
+<testcase classname="Test Client Info" name="check client details" time="0.000107">
 <system-out><![CDATA[Given open Client_deatils Page..............................................passed
 When click on client_Info button............................................passed
 Then should redirect to client Info page....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test company details" name="check company details" time="0.000033">
+<testcase classname="Test company details" name="check company details" time="0.000047">
 <system-out><![CDATA[Given open company_deatils Page.............................................passed
 When click on company_Info button...........................................passed
 Then should redirect to company Info page...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test customer details" name="check customer details" time="0.000126">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at ustdefinition.Definition.should_redirect_to_customer_Info_page(Definition.java:164)&#13;&#10;&#9;at ✽.Then should redirect to customer Info page(customerInfo.feature:8)&#13;&#10;"><![CDATA[Given open customer_deatils Page............................................passed
+<testcase classname="Test customer details" name="check customer details" time="0.00011">
+<system-out><![CDATA[Given open customer_deatils Page............................................passed
 When click on customer_Info button..........................................passed
-Then should redirect to customer Info page..................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.should_redirect_to_customer_Info_page(Definition.java:164)
-	at ✽.Then should redirect to customer Info page(customerInfo.feature:8)
-]]></failure>
+Then should redirect to customer Info page..................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Test emp details" name="check emp details" time="0.000144">
+<testcase classname="Test emp details" name="check emp details" time="0.00071">
 <failure message="org.testng.SkipException: skipped&#13;&#10;&#9;at ustdefinition.Definition.open_emp_deatils_Page(Definition.java:170)&#13;&#10;&#9;at ✽.Given open emp_deatils Page(employee_details.feature:5)&#13;&#10;"><![CDATA[Given open emp_deatils Page.................................................failed
 When click on emp_Info button...............................................skipped
 Then should redirect to emp Info page.......................................skipped
@@ -77,7 +53,7 @@ org.testng.SkipException: skipped
 	at ✽.Given open emp_deatils Page(employee_details.feature:5)
 ]]></failure>
 </testcase>
-<testcase classname="validate Amazon" name="to validate login page of Amazon" time="0.000237">
+<testcase classname="validate Amazon" name="to validate login page of Amazon" time="0.000327">
 <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at ustdefinition.Definition.should_open_HomePage(Definition.java:75)&#13;&#10;&#9;at ✽.Then should open HomePage(valid_Amazon.feature:6)&#13;&#10;"><![CDATA[Given open login page.......................................................passed
 And enter username and password.............................................passed
 When click on login.........................................................passed
@@ -92,19 +68,11 @@ java.lang.AssertionError
 	at ✽.Then should open HomePage(valid_Amazon.feature:6)
 ]]></failure>
 </testcase>
-<testcase classname="validate UST" name="to validate login page of UST" time="0.000256">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:81)&#13;&#10;&#9;at ✽.Then should open HomePage of UST(valid_ust.feature:6)&#13;&#10;"><![CDATA[Given open login page.......................................................passed
+<testcase classname="validate UST" name="to validate login page of UST" time="0.0001">
+<system-out><![CDATA[Given open login page.......................................................passed
 And enter username and password.............................................passed
 When click on login.........................................................passed
-Then should open HomePage of UST............................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at ustdefinition.Definition.should_open_HomePage_of_UST(Definition.java:81)
-	at ✽.Then should open HomePage of UST(valid_ust.feature:6)
-]]></failure>
+Then should open HomePage of UST............................................passed
+]]></system-out>
 </testcase>
 </testsuite>
