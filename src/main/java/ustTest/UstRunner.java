@@ -15,7 +15,8 @@ public class UstRunner {
 					"json:target/cucumber-reports/cucumber-report.json/","junit:target/cucumber-reports/junit-report.xml"},
 			dryRun=false,
 			features ={"src/test/resources/features"},
-			glue ="ustdefinition")
+			glue ="ustdefinition",
+			monochrome=true)
 	
 	public class edgeopsApiTestRunner extends AbstractTestNGCucumberTests {
 
